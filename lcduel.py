@@ -105,4 +105,4 @@ class LcDuel(commands.Bot):
 
 bot = LcDuel(command_prefix='d.')
 bot.init_command()
-bot.run('ODg3MjM5MjAwNDUyMjY4MDcz.YUBP5Q.KZms1wy4M6xFNAXti-YmliTBL-8')
+bot.run('<token>')
