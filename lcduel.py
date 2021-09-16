@@ -31,7 +31,7 @@ class LcDuel(commands.Bot):
 
 		@self.command(name="rank") # aliases command d.profile function after this line is the function run when this command executed
 		async def _rank(ctx):
-			rank_embed = discord.Embed(title="Cốt thủ ranking")
+			rank_embed = discord.Embed(title="Cốt thủ Ranking")
 			field_user, rating_field, diff_field = "", "", ""
 			for k in self.data['user']:
 				field_user += k + '\n'
@@ -102,6 +102,10 @@ class LcDuel(commands.Bot):
 			except:
 				await ctx.send("Failed !")
 
+		@self.command(name="eval")
+		async def _eval(ctx, *args):
+			expression = ''.join(args)
+			await ctx.send(eval(expression))
 
 bot = LcDuel(command_prefix='d.')
 bot.init_command()
