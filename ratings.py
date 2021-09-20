@@ -1,9 +1,9 @@
 class ELO:
 	@staticmethod
 	def key_K(R, M): # function to get K key, force user get inflationary of ELO
-		K = 40
-		if M > 5:
-			K -= 20
+		K = 70
+		if M > 3:
+			K -= 50
 
 		if R < 1800:
 			K += 5

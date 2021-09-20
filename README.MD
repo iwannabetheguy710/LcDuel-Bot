@@ -1,7 +1,7 @@
 # LcDuel: A Duel rating support bot for Luyencode.net's Discord Server
-### In this bot have some future:
-- Rating ranking bot for server
-- View rating profile of user
-- Send DMs to a listed user
-- Auto calculate rating with ELO System
-- Remmove a user from a database
+### Updated for version 1 (view CHANGELOG):
+- Add ranking role and color profile for the role
+- Add command for reset all rating information of everyone registered in leaderboard
+- Add new command for start a match with custom time, real-time couting when match started
+
+###### Sneak Peek: bot online judge for coding. Shhhhhhh !
