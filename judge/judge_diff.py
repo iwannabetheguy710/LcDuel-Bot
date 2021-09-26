@@ -1,6 +1,6 @@
 import sys, codecs
 
-class DiffJudgement:
+class DiffJudge:
 	def __init__(self, **kwargs):
 		self.settings = {
 			"allow_tail_space": False,
@@ -51,5 +51,3 @@ class DiffJudgement:
 		f2.close()
 
 		return True
-
-sys.stdout.write(str(DiffJudgement(allow_tail_space=False)._differ('../OUT1', '../OUT2')))

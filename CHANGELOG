@@ -1,12 +1,6 @@
-LcDuel Version 1:
-- Add ranking role and color profile for the role
-- Add command for reset all rating information of everyone registered in leaderboard
-- Add new command for start a match with custom time, real-time couting when match started
+LcDuel Version 2:
+- Change command prefix from "d." to "]"
+- New profile UI (added rating history chart)
+- Added highest rating and lowest rating history
+- Added run file mode in discord with file upload
 ** Sneak Peek: bot online judge for coding. Shhhhhhh ! **
-
-LcDuel Version 0 (Initial):
-- Rating ranking bot for server
-- View rating profile of user
-- Send DMs to a listed user
-- Auto calculate rating with ELO System
-- Remove a user from a database
